@@ -22,3 +22,19 @@ body
     border: 3px solid black;
 
 }
+
+
+.identity
+{
+    height: 15%;
+    display: flex;
+    border: 3px solid black;
+
+}
+
+.photo
+{
+    margin: auto;
+    border-radius: 100px;
+    box-shadow: 1px 1px 5px black;
+}
