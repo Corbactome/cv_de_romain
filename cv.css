@@ -3,6 +3,7 @@ body
     display: flex;
     border: 3px solid black;
     margin: 0;
+    font-family: "Times New Roman", arial, serif;
 }
 
 
@@ -18,6 +19,8 @@ body
 
 .second_part
 {
+    display: flex;
+    flex-direction: column;
     width: 71%;
     border: 3px solid black;
 
@@ -41,7 +44,7 @@ body
 
 .contact
 {
-    height: 25%;   
+    height: 25%;
 }
 
 .contact_title
@@ -93,4 +96,107 @@ body
 {
     display: flex;
     justify-content: space-around;
+}
+
+header
+{
+    height: 20%;
+    margin-left: 60px;
+    margin-top: 80px;
+}
+
+header h1
+{
+    margin: auto;
+
+}
+
+.trait
+{
+    border-bottom: 2px solid rgba(255,193,7 ,1);;
+}
+
+.nom_prenom
+{
+    font-size: 30px;
+    font-family: 'happy_times_at_the_ikobRg', sans-serif;
+}
+
+.prenom
+{
+    color: rgba(255,193,7 ,1);
+    
+}
+
+.nom_metier
+{
+    font-size: 15px;
+}
+
+.formation
+{
+    height: 25%;
+    border: 3px solid black;
+    
+}
+
+.alencon
+{
+    display: flex;
+    
+     
+}
+
+.caen
+{
+     
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.dates_caen
+{
+    border: 3px solid black;
+    width: 30%;
+    margin-left: 40px;
+     
+}
+
+.informations_caen
+{
+    border: 3px solid black;
+    margin-right: 20px;
+
+    
+}
+
+.professional_experiences
+{
+    height: 40%;
+}
+
+.recommendations
+{
+    height: 20%;
+}
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'happy_times_at_the_ikobRg';
+    src: url('fonts/happy-times-at-the-ikob-webfont.eot');
+    src: url('fonts/happy-times-at-the-ikob-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/happy-times-at-the-ikob-webfont.woff2') format('woff2'),
+         url('fonts/happy-times-at-the-ikob-webfont.woff') format('woff'),
+         url('fonts/happy-times-at-the-ikob-webfont.ttf') format('truetype'),
+         url('fonts/happy-times-at-the-ikob-webfont.svg#happy_times_at_the_ikobRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
