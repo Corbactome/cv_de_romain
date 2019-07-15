@@ -102,12 +102,12 @@ header
 {
     height: 20%;
     margin-left: 60px;
-    margin-top: 80px;
+    margin-top: 70px;
 }
 
 header h1
 {
-    margin: auto;
+    margin: 0;
 
 }
 
@@ -135,39 +135,115 @@ header h1
 
 .formation
 {
-    height: 25%;
+    height: 30%;
     border: 3px solid black;
+    
+}
+
+.title_formation
+{
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-top: 50px;   
+    margin-right: 30px;
+    border-bottom: 1px solid rgba(255,193,7 ,1);
+}
+
+.formation_logo
+{
+    
+    height: 50%;
+    margin-right: 30px;
+    color: rgba(255,193,7 ,1);
+}
+
+.title_formation h2
+{
+    margin: 0;
+}
+
+.formation h3
+{
+    margin: 0;
+    
+}
+
+.formation h4
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
     
 }
 
 .alencon
 {
     display: flex;
-    
+    margin-top: 10px;
      
+}
+
+.dates_alencon
+{
+    display: flex;
+    margin: 0;
+    width: 30%;
+    margin-left: 40px;
+     
+}
+
+.alencon_chip
+{
+    height: 15%;
+    margin-right: 15px;
+    color: rgba(255,193,7 ,1);
+}
+
+.dates_alencon p
+{
+    margin: 0;
+}
+
+.informations_alencon
+{
+    margin-right: 20px;
+    margin-left: 120px;
+    
 }
 
 .caen
 {
      
     display: flex;
-    flex-grow: 1;
-    flex-shrink: 1;
+    margin-top: 10px;
 }
 
 .dates_caen
 {
-    border: 3px solid black;
+    display: flex;
+    margin: 0;
     width: 30%;
     margin-left: 40px;
      
 }
 
+.caen_chip
+{
+    height: 15%;
+    margin-right: 15px;
+    color: rgba(255,193,7 ,1);
+    
+}
+
+.dates_caen p
+{
+    margin: 0;
+}
+
 .informations_caen
 {
-    border: 3px solid black;
     margin-right: 20px;
-
+    margin-left: 120px;
     
 }
 
