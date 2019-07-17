@@ -197,7 +197,7 @@ header h1
 {
     display: flex;
     margin: 0;
-    width: 30%;
+    width: 54%;
     margin-left: 40px;
      
 }
@@ -217,7 +217,7 @@ header h1
 .informations_alencon
 {
     margin-right: 20px;
-    margin-left: 120px;
+    margin-left: 20px;
     
 }
 
@@ -232,7 +232,7 @@ header h1
 {
     display: flex;
     margin: 0;
-    width: 30%;
+    width: 54%;
     margin-left: 40px;
      
 }
@@ -253,7 +253,7 @@ header h1
 .informations_caen
 {
     margin-right: 20px;
-    margin-left: 120px;
+    margin-left: 20px;
     
 }
 
@@ -296,7 +296,7 @@ header h1
 
 .professional_experiences h4
 {
-    margin-top: &0px;
+    margin-top: 10px;
     margin-bottom: 10px;
     
 }
@@ -311,6 +311,7 @@ header h1
 .dates_asap
 {
     display: flex;
+    margin: 0;
     width: 54%;
     margin-left: 40px;
      
@@ -326,6 +327,7 @@ header h1
 .dates_asap p
 {
     margin: 0;
+    width: 100%;
 }
 
 .informations_asap
@@ -345,6 +347,7 @@ header h1
 .dates_axeo
 {
     display: flex;
+    margin: 0;
     width: 56%;
     margin-left: 40px;
      
@@ -360,6 +363,7 @@ header h1
 .dates_axeo p
 {
     margin: 0;
+    width: 100%;
 }
 
 .informations_axeo
@@ -379,6 +383,7 @@ header h1
 .dates_proseniors
 {
     display: flex;
+    margin: 0;
     width: 52%;
     margin-left: 40px;
      
@@ -394,6 +399,7 @@ header h1
 .dates_proseniors p
 {
     margin: 0;
+    width: 100%;
 }
 
 .informations_proseniors
@@ -441,7 +447,46 @@ header h1
     margin-bottom: 60px;
 }
 
+/*-----------------Affichage tablette-------------------------------------------------*/
 
+/*@media screen and (min-width: 768px) and (max-width: 991px)
+
+{
+.alencon
+{
+    display: flex;
+    margin-top: 10px;
+     
+}
+
+.dates_alencon
+{
+    display: flex;
+    margin: 0;
+    width: 52%;
+    margin-left: 40px;
+     
+}
+
+.alencon_chip
+{
+    height: 15%;
+    margin-right: 15px;
+    color: rgba(255,193,7 ,1);
+}
+
+.dates_alencon p
+{
+    margin: 0;
+}
+
+.informations_alencon
+{
+    margin-right: 20px;
+    margin-left: 120px;
+    
+}
+}*/
 
 
 
