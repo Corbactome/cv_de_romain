@@ -444,49 +444,41 @@ header h1
     display: flex;
     justify-content: space-around;
     border: 3px sold black;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
 }
 
 /*-----------------Affichage tablette-------------------------------------------------*/
 
-/*@media screen and (min-width: 768px) and (max-width: 991px)
+@media screen and (max-width: 789px) and (orientation: portrait)
 
 {
-.alencon
+   
+.informations
 {
-    display: flex;
-    margin-top: 10px;
-     
+    margin: 0px;
 }
 
-.dates_alencon
+.first_part
 {
-    display: flex;
-    margin: 0;
-    width: 52%;
-    margin-left: 40px;
-     
+    width: 45%;
 }
 
-.alencon_chip
+.loisirs h2
 {
-    height: 15%;
-    margin-right: 15px;
-    color: rgba(255,193,7 ,1);
+    margin: 3px;
 }
 
-.dates_alencon p
+.logos
 {
-    margin: 0;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 75%;
 }
 
-.informations_alencon
-{
-    margin-right: 20px;
-    margin-left: 120px;
-    
+
+
 }
-}*/
 
 
 
