@@ -499,16 +499,6 @@ header h1
     
 }
 
-.it_languages
-{
-    
-}
-
-.office
-{
-    
-}
-
 
 
 
@@ -547,7 +537,7 @@ header h1
 
 .loisirs
 {
-    height: 17%;
+    height: 18%;
 }
 
 .loisirs h2
@@ -573,7 +563,7 @@ header
 .formation
 {
     width: 100%;
-    height: 31%;
+    height: 29%;
     
 }
 
@@ -634,7 +624,7 @@ header
 .professional_experience
 {
     width: 100%;
-    height: 45%;
+    height: 40%;
     
 }
 
@@ -659,7 +649,6 @@ header
 {
     margin: 0;
     width: 50%;    
-    border: 3px solid black;
 }
 
 .informations_asap
@@ -684,7 +673,6 @@ header
 {
     margin: 0;
     width: 50%;    
-    border: 3px solid black;
 }
 
 .informations_axeo
@@ -735,6 +723,37 @@ header
 {
     margin-right: 10px;
     margin-left: 10px;
+}
+
+.skills
+{
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    
+}
+
+.languages
+{
+    width: 100%;
+    
+}
+
+.title_language
+{
+    margin-left: 10px;  
+    margin-right: 10px;
+}
+
+.it
+{
+    width: 100%;   
+}
+
+.title_it
+{
+    margin-left: 10px;  
+    margin-right: 10px;
 }
 
 
