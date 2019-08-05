@@ -1,3 +1,5 @@
+/*Vérification marge CV en vue normale fait*/
+
 body
 {
     display: flex;
@@ -27,10 +29,8 @@ body
 
 .identity
 {
-    height: 15%;
+    height: 18%;
     display: flex;
-    /*border: 3px solid black;*/
-
 }
 
 .photo
@@ -44,7 +44,7 @@ body
 
 .contact
 {
-    height: 25%;
+    height: 29%;
 }
 
 .contact h2
@@ -88,7 +88,7 @@ body
 
 .loisirs
 {
-    height: 12%;
+    height: 15%;
 }
 
 .loisirs h2
@@ -110,8 +110,8 @@ body
 header
 {
     height: 15%;
-    margin-left: 60px;
-    margin-top: 70px;
+    margin-left: 40px;
+    margin-top: 20px;
 }
 
 header h1
@@ -146,8 +146,7 @@ header h1
 
 .formation
 {
-    height: 30%;
-    
+    height: 35%;
 }
 
 .title_formation
@@ -156,7 +155,7 @@ header h1
     margin-bottom: 30px;
     margin-left: 40px;
     margin-top: 50px;   
-    margin-right: 30px;
+    margin-right: 20px;
     border-bottom: 1px solid rgba(255,193,7 ,1);
 }
 
@@ -190,7 +189,6 @@ header h1
 {
     display: flex;
     margin-top: 10px;
-     
 }
 
 .dates_alencon
@@ -199,7 +197,6 @@ header h1
     margin: 0;
     width: 54%;
     margin-left: 40px;
-     
 }
 
 .alencon_chip
@@ -218,7 +215,6 @@ header h1
 {
     margin-right: 20px;
     margin-left: 20px;
-    
 }
 
 .caen
@@ -234,15 +230,13 @@ header h1
     margin: 0;
     width: 54%;
     margin-left: 40px;
-     
 }
 
 .caen_chip
 {
     height: 15%;
-    margin-right: 15px;
+    margin-right: 19px;
     color: rgba(255,193,7 ,1);
-    
 }
 
 .dates_caen p
@@ -254,15 +248,13 @@ header h1
 {
     margin-right: 20px;
     margin-left: 20px;
-    
 }
 
 /*-----------------Partie Expériences------------------------------------------------------*/
 
 .professional_experience
 {
-    height: 40%;
-    
+    height: 50%;
 }
 
 .title_experience
@@ -305,7 +297,6 @@ header h1
 {
     display: flex;
     margin-top: 10px;
-     
 }
 
 .dates_asap
@@ -314,7 +305,6 @@ header h1
     margin: 0;
     width: 54%;
     margin-left: 40px;
-     
 }
 
 .asap_chip
@@ -334,14 +324,12 @@ header h1
 {
     margin-right: 20px;
     margin-left: 20px;
-    
 }
 
 .axeo
 {
     display: flex;
     margin-top: 10px;
-     
 }
 
 .dates_axeo
@@ -350,7 +338,6 @@ header h1
     margin: 0;
     width: 56%;
     margin-left: 40px;
-     
 }
 
 .axeo_chip
@@ -370,14 +357,12 @@ header h1
 {
     margin-right: 20px;
     margin-left: 20px;
-    
 }
 
 .proseniors
 {
     display: flex;
     margin-top: 10px;
-     
 }
 
 .dates_proseniors
@@ -386,7 +371,6 @@ header h1
     margin: 0;
     width: 52%;
     margin-left: 40px;
-     
 }
 
 .proseniors_chip
@@ -406,7 +390,6 @@ header h1
 {
     margin-right: 20px;
     margin-left: 20px;
-    
 }
 
 /*-----------------Partie Recommandations-------------------------------------------------*/
@@ -414,13 +397,11 @@ header h1
 .skills
 {
     height: 15%;
-    margin-top: 30px;
     display: flex;
 }
 
 .languages
 {
-    
     width: 35%;
 }
 
@@ -432,8 +413,6 @@ header h1
     margin-top: 20px;   
     margin-right: 40px;
     border-bottom: 1px solid rgba(255,193,7 ,1);
-    
-    
 }
 
 .language_logo
@@ -454,16 +433,10 @@ header h1
     width: 50%;
     margin-left: 54px;
     padding-left: 20px;
-    
-    
 }
-
-
-
 
 .it
 {
-    
     width: 65%;
 }
 
@@ -475,13 +448,10 @@ header h1
     margin-top: 20px;   
     margin-right: 20px;
     border-bottom: 1px solid rgba(255,193,7 ,1);
-    
-    
 }
 
 .it_logo
 {
-    
     height: 50%;
     margin-right: 30px;
     color: rgba(255,193,7 ,1);
@@ -496,7 +466,6 @@ header h1
 {
     display: flex;
     justify-content: space-around;
-    
 }
 
 
@@ -774,6 +743,11 @@ header
     margin: 20px;
 }
 
+.loisirs
+{
+    
+}
+
 .logos
 {
     margin-top: 40px;
@@ -905,12 +879,23 @@ header
     
 }
 
+}
+
+
+@media screen and (max-width: 360px) and (orientation: portrait) /*border: 3px solid black;*/
+{
+
+.first_part
+{
+    width: 70%;
+}
+
+
 
 
 
 
 }
-
 
 
 
