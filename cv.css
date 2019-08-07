@@ -44,7 +44,7 @@ body
 
 .contact
 {
-    height: 29%;
+    height: 35%;
 }
 
 .contact h2
@@ -59,6 +59,11 @@ body
 .informations
 {
     margin: 30px;
+}
+
+a
+{
+color: black;
 }
 
 /*-----------------Partie A Propos------------------------------------------------------*/
@@ -195,14 +200,14 @@ header h1
 {
     display: flex;
     margin: 0;
-    width: 54%;
+    width: 41%;
     margin-left: 40px;
 }
 
 .alencon_chip
 {
     height: 15%;
-    margin-right: 15px;
+    margin-right: 16px;
     color: rgba(255,193,7 ,1);
 }
 
@@ -228,7 +233,7 @@ header h1
 {
     display: flex;
     margin: 0;
-    width: 54%;
+    width: 52%;
     margin-left: 40px;
 }
 
@@ -303,7 +308,7 @@ header h1
 {
     display: flex;
     margin: 0;
-    width: 54%;
+    width: 65%;
     margin-left: 40px;
 }
 
@@ -336,7 +341,7 @@ header h1
 {
     display: flex;
     margin: 0;
-    width: 56%;
+    width: 58%;
     margin-left: 40px;
 }
 
@@ -369,7 +374,7 @@ header h1
 {
     display: flex;
     margin: 0;
-    width: 52%;
+    width: 65%;
     margin-left: 40px;
 }
 
@@ -479,7 +484,7 @@ header h1
 
 .first_part
 {
-    width: 50%;
+    width: 56%;
 }
     
 .second_part
@@ -502,6 +507,8 @@ header h1
 .informations
 {
     margin: 0px;
+    width: 100%;
+    word-wrap: break-word;
 }
 
 .loisirs
@@ -569,7 +576,7 @@ header
 .dates_alencon
 {
     margin: 0;
-    width: 50%;
+    width: 54%;
 }
 
 .informations_alencon
@@ -593,7 +600,7 @@ header
 .dates_caen
 {
     margin: 0;
-    width: 50%;   
+    width: 54%;   
 }
 
 .informations_caen
@@ -631,7 +638,7 @@ header
 .dates_asap
 {
     margin: 0;
-    width: 50%;    
+    width: 54%;    
 }
 
 .informations_asap
@@ -655,7 +662,7 @@ header
 .dates_axeo
 {
     margin: 0;
-    width: 50%;    
+    width: 54%;    
 }
 
 .informations_axeo
@@ -679,7 +686,7 @@ header
 .dates_proseniors
 {
     margin: 0;
-    width: 50%;    
+    width: 54%;    
 }
 
 .informations_proseniors
@@ -750,7 +757,8 @@ header
 .informations
 {
     margin: 20px;
-    width: 88%;
+    width: 89%;
+    word-wrap: break-word;
 }
 
 .logos
@@ -781,7 +789,7 @@ header
 
 .dates_alencon
 { 
-    width: 43%;
+    width: 55%;
     margin-left: 25px;
 }
 
@@ -792,7 +800,7 @@ header
 
 .dates_caen
 {
-    width: 43%;
+    width: 55%;
     margin-left: 25px;
 }
 
@@ -811,7 +819,7 @@ header
 
 .dates_asap
 {
-    width: 43%;
+    width: 55%;
     margin-left: 25px;
 }
 
@@ -822,7 +830,7 @@ header
 
 .dates_axeo
 {
-    width: 43%;
+    width: 55%;
     margin-left: 25px;
 }
 
@@ -833,7 +841,7 @@ header
 
 .dates_proseniors
 {
-    width: 43%;
+    width: 55%;
     margin-left: 25px;
 }
 
