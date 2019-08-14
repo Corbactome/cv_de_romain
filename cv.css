@@ -112,7 +112,6 @@ color: black;
 
 header
 {
-    height: 15%;
     margin-left: 40px;
     margin-top: 20px;
 }
@@ -130,7 +129,7 @@ header h1
 
 .nom_prenom
 {
-    font-size: 30px;
+    font-size: 60px;
     font-family: 'happy_times_at_the_ikobRg', sans-serif;
 }
 
@@ -142,8 +141,8 @@ header h1
 
 .nom_metier
 {
-    font-size: 15px;
-}
+    font-size: 30px;
+} 
 
 /*-----------------Partie Formation------------------------------------------------------*/
 
@@ -531,19 +530,18 @@ header h1
 
 header
 {
-    height: 11%;
     margin-left: 10px;
     margin-top: 55px;
 }
 
 .nom_prenom
 {
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .nom_metier
 {
-    font-size: 14px;
+    font-size: 28px;
 }
 
 /*-----------------Partie Formation--------------------------------------------------------*/
@@ -768,14 +766,13 @@ header
 
 header
 {
-    height: 15%;
     margin-left: 25px;
     margin-top: 65px;
 }
 
 .nom_prenom
 {
-    font-size: 24px;
+    font-size: 48px;
 }
 
 /*-----------------Partie Formation------------------------------------------------------------*/
@@ -883,7 +880,7 @@ header
 
 }
 
-
+/*-----------------Font Face (Police d'écriture)---------------------------------------------------*/
 
 
 @font-face {
